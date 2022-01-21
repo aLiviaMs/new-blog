@@ -2,7 +2,6 @@ import Posts from "./Posts";
 import Card from "./Card";
 import Banner from "./Banner";
 
-import './MainContent.scss';
 import star from "../svg/icon-star.svg";
 
 //API & HOOKS

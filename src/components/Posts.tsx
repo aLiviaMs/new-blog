@@ -1,6 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './Posts.scss';
-
 import IPost from 'interface/IPost';
 import IUser from 'interface/IUser';
 

@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './Header.scss';
 import blogLogo from '../svg/blog-logo.svg';
 
 const Header = () => {

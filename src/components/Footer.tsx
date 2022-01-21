@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './Footer.scss';
 import logo2 from '../svg/blog-logo2.svg';
 import facebookLogo from '../svg/icon-facebook.svg';
 import instagramLogo from '../svg/icon-instagram.svg';

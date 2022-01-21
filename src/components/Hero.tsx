@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './Hero.scss';
 import blog from '../svg/blog.svg';
 
 const Hero = () => {

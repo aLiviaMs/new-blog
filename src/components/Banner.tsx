@@ -1,6 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './Banner.scss';
-
 import image05 from '../img/05.png';
 
 const Banner = () => {
