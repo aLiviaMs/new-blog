@@ -21,7 +21,7 @@ const MainContent = () => {
                 setPost(response.data);
             });
 
-        api.get('/posts?_sort=date&_order=&desc&_limit=1')
+        api.get('/posts?id=8&_limit=1')
             .then((response) => {
                 setBanner(response.data);
             });
@@ -60,14 +60,19 @@ const MainContent = () => {
                 <section className="container">
                     <h3 className="ml-2 mb-3">Mais vistos</h3>
                     <div className="row">
-                        <Card />
-                        <Card />
-                        <Card />
+                        {
+                            mostSeen.map((item) => {
+                                return <Card key={item.id} id={item.id} date={item.date} imageUrl={item.imageUrl} category={item.category} title={item.title} resume={item.resume} duration={item.duration} star={item.star} views={item.views} status={item.status} id_user={item.id_user} content={item} />
+                            })
+                        }
                     </div>
                 </section>
             </div>
-
-            <Banner />
+            {
+                banner.map((item) => {
+                    return <Banner key={item.id} id={item.id} date={item.date} imageUrl={item.imageUrl} category={item.category} title={item.title} resume={item.resume} duration={item.duration} star={item.star} views={item.views} status={item.status} id_user={item.id_user} content={item} />
+                })
+            }
         </>
 
     )
