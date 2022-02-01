@@ -7,12 +7,11 @@ const Header = () => {
             <header className="py-1 px-2">
                 <nav>
                     <div className="logo">
-                        <a href=""><img src={blogLogo} alt="Logo Blog" /></a>
+                        <a href="/"><img src={blogLogo} alt="Logo Blog" /></a>
                     </div>
                     <ul className="menu">
-                        <li><a href="" className="p-1">Categorias</a></li>
-                        <li><a href="" className="p-1">Sobre</a></li>
-                        <li><a href="" className="p-1">Contato</a></li>
+                        <li><a href="/about" className="p-1">Sobre</a></li>
+                        <li><a href="/contact" className="p-1">Contato</a></li>
                     </ul>
                 </nav>
                 <div className="bx"></div>
@@ -28,7 +27,7 @@ const Header = () => {
                         <a href="" className="btn">Login</a>
                     </div>
                     <div className="cta-mobile mr-1">
-                        <a href="" className="link">Login</a>
+                        <a href="/login" className="link">Login</a>
                     </div>
                 </div>
             </header>
@@ -36,7 +35,6 @@ const Header = () => {
             <div className="relative">
                 <div className="menu-mobile">
                     <ul className="nav-mobile">
-                        <li><a href="#" className="link-menu-mobile">Categorias</a></li>
                         <li><a href="#" className="link-menu-mobile">Sobre</a></li>
                         <li><a href="#" className="link-menu-mobile">Contato</a></li>
                         <li className="py-2 pl-2">

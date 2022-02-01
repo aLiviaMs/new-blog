@@ -2,18 +2,14 @@
 import Header from "components/Header";
 import Footer from "components/Footer";
 
-import Hero from "components/Hero";
-import MainContent from "components/MainContent";
-
-const Home = () => {
+const Post = () => {
     return (
         <>
             <Header />
-            <Hero />
-            <MainContent />
+            <h1>Post</h1>
             <Footer />
         </>
-    );
+    )
 }
 
-export default Home;
+export default Post;
