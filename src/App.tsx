@@ -1,9 +1,9 @@
-import Home from "pages/Home";
+import Paths from "routes/Paths";
 
 function App() {
   return (
     <>
-      <Home />
+      <Paths />
     </>
   );
 }

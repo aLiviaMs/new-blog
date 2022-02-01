@@ -2,18 +2,14 @@
 import Header from "components/Header";
 import Footer from "components/Footer";
 
-import Hero from "components/Hero";
-import MainContent from "components/MainContent";
-
-const Home = () => {
+const Contact = () => {
     return (
         <>
             <Header />
-            <Hero />
-            <MainContent />
+            <h1>Contact</h1>
             <Footer />
         </>
-    );
+    )
 }
 
-export default Home;
+export default Contact;
